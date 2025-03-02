@@ -20,7 +20,7 @@ export default function Home() {
                         rootMargin="-50px"
                     />
                     <SplitText
-                        text="a young czech developer, audio tinkerer, student and musicican"
+                        text="a young czech developer, audio tinkerer, student and musician"
                         className="sub-text"
                         delay={150}
                         animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
