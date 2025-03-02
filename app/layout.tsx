@@ -1,16 +1,17 @@
-import type { Metadata } from 'next'
+import type {Metadata} from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'slosas web',
+  title: 'slosa\'s web',
   metadataBase: new URL('https://slosa.love'),
-  description: 'Im a slosas website',
+  description: 'I\'m slosa\'s website',
   icons: {
     icon: '/cat.webp',
   },
   openGraph: {
-    title: 'slosas web',
-    description: 'Im a slosas website',
+    title: 'slosa\'s web',
+    description: 'I\'m slosa\'s website',
+    type: 'website',
     images: [
       {
         url: '/cat.webp',
