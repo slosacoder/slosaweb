@@ -37,6 +37,20 @@ body {
     z-index: -1;
 }
 
+
+.corner-text {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    top: 0;
+    left: 90%;
+}
+
+.redirect {
+    text-decoration: underline;
+}
+
 .background > div {
     width: 100%;
     height: 100%;

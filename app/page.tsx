@@ -35,6 +35,17 @@ export default function Home() {
                         threshold={0.2}
                         rootMargin="-50px"
                     />
+                <a href="https://files.slosa.love" target="_blank" rel="noopener noreferrer" className="redirect">
+                    <SplitText
+                        text="file system"
+                        className="corner-text"
+                        delay={300}
+                        animationFrom={{opacity: 0, transform: 'translate3d(0,50px,0)'}}
+                        animationTo={{opacity: 1, transform: 'translate3d(0,0,0)'}}
+                        threshold={0.2}
+                        rootMargin="-50px"
+                    />
+                </a>
             </div>
         </main>
     )
