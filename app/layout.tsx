@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://slosa.love'),
   description: 'I\'m slosa\'s website',
   icons: {
-    icon: '/cat.webp',
+    icon: '/icon.webp',
   },
   openGraph: {
     title: 'slosa\'s web',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/cat.webp',
+        url: '/icon.webp',
         width: 1200,
         height: 630,
       }

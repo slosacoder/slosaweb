@@ -27,6 +27,25 @@ body {
     text-align: center;
 }
 
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    grid-auto-rows: 40px;
+    gap: 0;
+}
+
 @media (max-width: 768px) {
     .main-text {
         font-size: 5rem;

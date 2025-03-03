@@ -1,6 +1,6 @@
-import { Roboto } from 'next/font/google';
+import {Roboto} from 'next/font/google';
 import SplitText from "../blocks/TextAnimations/SplitText/SplitText";
-import Blob from "../blocks/Animations/BlobCursor/BlobCursor";
+import Squares from "../blocks/Backgrounds/Squares/Squares";
 
 import './main.css';
 
@@ -9,6 +9,13 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['500']});
 export default function Home() {
     return (
         <main className={roboto.className}>
+            <div className="background">
+                <Squares squareSize={40}
+                         speed={0.5}
+                         direction="diagonal"
+                         borderColor="#222"
+                         hoverFillColor="#222222"/>
+            </div>
             <div className="text-container">
                     <SplitText
                         text="Hi, I'm slosa"
@@ -29,7 +36,6 @@ export default function Home() {
                         rootMargin="-50px"
                     />
             </div>
-            <Blob fillColor={"white"}/>
         </main>
     )
 }
