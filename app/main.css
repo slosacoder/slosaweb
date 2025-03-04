@@ -63,9 +63,19 @@ body {
 @media (max-width: 768px) {
     .main-text {
         font-size: 5rem;
-        margin-bottom: 0.1rem;
     }
     .sub-text {
         font-size: 2rem;
+    }
+}
+
+/* For even smaller screens, adjust the offset as needed */
+@media (max-width: 480px) {
+    .main-text {
+        margin-left: 1.25rem;
+    }
+
+    .sub-text {
+        margin-left: 0.5rem;
     }
 }
