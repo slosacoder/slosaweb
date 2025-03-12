@@ -69,7 +69,7 @@ body {
     }
 }
 
-/* For even smaller screens, adjust the offset as needed */
+/* For even smaller screens */
 @media (max-width: 480px) {
     .main-text {
         margin-left: 1.25rem;
